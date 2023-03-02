@@ -1,13 +1,13 @@
-Ghaouthi Brahim 22102881
-Lema Xavier Santiago 22108098
-speech-assistant
-https://mygit.th-deg.de/bg07881/speech-assistant
+Ghaouthi Brahim 22102881  
+Lema Xavier Santiago 22108098  
+speech-assistant  
+https://mygit.th-deg.de/bg07881/speech-assistant  
 
 # Project Description
 We used RASA python library to develop an NLU Chatbot. The purpose of the chatbot is to help the user find some interesting exercises adequate for their needs. The system, chatbot, has a name. It is called Jim. And it will try to be as fluent as possible in human natural language. For example, you can ask it how it feels, who it is, and what's its purpose to make some chitchat.
 
 # Installation
-To run the chatbot the required libraries should be installed first:
+To run the chatbot the required libraries should be installed first:  
 
 pip install -r requirements.txt
 
