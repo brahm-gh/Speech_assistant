@@ -20,18 +20,18 @@ The conversation can go through various paths. The bot will ask aggressively som
 # Implementation of the Requests
 The bot can deliver many different routines of exercises for different needs such as:
 
-. Losing weight
-. Gaining muscle mass
-. Cardio training
-. Light exercises
-. Train at home
+. Losing weight  
+. Gaining muscle mass  
+. Cardio training  
+. Light exercises  
+. Train at home  
 
 It can also suggest routines focusing on a specific muscle or muscle group such as:
 
-. Legs
-. Abs
-. Back
-. Triceps
+. Legs  
+. Abs  
+. Back  
+. Triceps  
 
 And more.
 
