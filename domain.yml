@@ -1,0 +1,220 @@
+version: '3.1'
+intents:
+- affirm
+- ask_purpose
+- bot_challenge
+- bot_mood
+- build_back
+- build_biceps
+- build_chest
+- build_legs
+- build_shoulder
+- build_triceps
+- deny
+- disappointed
+- do_cardio
+- doubt
+- gain_muscles
+- get_abs
+- goodbye
+- greet
+- greet_name
+- impressed
+- light_exercises
+- lose_weight
+- mood_great
+- mood_unhappy
+- rookie
+- routine
+- say_name
+- scratch
+- thanks
+- tighten_body
+responses:
+  utter_hi:
+  - text: Hey! How are you?
+  utter_ok:
+  - text: Okay
+  utter_cheer_up:
+  - text: I'm sorry to hear that. Always I'm feeling down I like to take a 20 minutes walk to clear my thoughts :)
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great to hear :)
+  utter_sad:
+  - text: :(
+  utter_smile:
+  - text: :)
+  utter_goodbye:
+  - text: See you around
+  utter_doubt:
+  - text: It's okay to doubt sometimes
+  utter_iamabot:
+  - text: I am just a program. I live in your computer and feed from your electricity.
+  utter_purpose:
+  - text: I can help you by recommending you some exercises and building up training routines :)
+  utter_greet:
+  - text: Hello, I'm Jim the fitness bot. How are you doing?
+  utter_greet_with_name:
+  - text: Hey {slot_name}!
+  utter_present:
+  - text: My name is Jim :) How are you doing?
+  utter_repeat:
+  - text: Sorry, can you reformulate then?
+  utter_organize:
+  - text: Would you like some help organizing your trainings?
+  utter_suggest_routine:
+  - text: Would you like me to recommend you a routine for that?
+  utter_goal:
+  - text: What is your goal?
+  utter_light_exercise:
+  - text: For a light exercise that will help you improve your mood, increase your general energy and keep you healthier maybe you can try some daily 30 minutes walk with a fast pace.
+  utter_something_more:
+  - text: Would you like to add something more to that?
+  utter_something_else:
+  - text: Can I help you with something else?
+  utter_what_else:
+  - text: What else do you want to do?
+  utter_no_problem:
+  - text: No problem!
+  utter_feel:
+  - text: I can't really feel much, so fine I guess. Thanks for asking :)
+  utter_weight_loss_exercises:
+  - text: |-
+      This is the routine I recommend for that purpose: 
+       First start with a 20 min treadmil 
+       Then 4 sets of 10 repetitions of squats 
+       4 sets of 10 repetitions of bodyweight pushups 
+       3 sets of 15 repetitions of crunches
+  utter_muscle_gain_exercises:
+  - text: |-
+      This is the routine I recommend for that purpose: 
+       4 sets of 10 reps of Incline Hammer Curls 
+       4 sets of 10 reps of Squats using a Squat rack 
+       4 sets of 10 reps Pullups 
+       4 sets of Bench press 
+       4 sets of triceps cabel pulls
+  utter_body_tightening_exercises:
+  - text: |-
+      This is the routine I recommend for that purpose: 
+       4 sets of 10 reps of Incline Hammer Curls 
+       4 sets of 10 reps of Pushups 
+       4 sets of 10 reps of Dumbbell floor press 
+       4 sets of 10 reps of Squats 
+       4 sets of 10 reps of crunches
+  utter_abs_exercises:
+  - text: |-
+      This is the routine I recommend for that purpose: 
+       10-20 mins of jogging or cycling 
+       4 sets of 10 reps of Landmine twist 
+       4 sets of 10 reps of  Suspended ab fall-out 
+       4 sets of 10 reps of Dumbbell V-Sit Cross Jab  
+  utter_cardio_exercises:
+  - text: |-
+      You can do one of the following exercises for 20-45 mins: 
+       Rickshaw Carry 
+       Stair climber  
+       Bicycling  
+       Elliptical trainer
+  utter_chest_exercises:
+  - text: |-
+      This is the routine I recommend for chest 
+       Exercise 1: Dumbbell Bench Press 
+       Equipment: dumbbell 
+       Exercise 2: Pushups 
+       Equipment: body_only 
+       Exercise 3: Close-grip bench press 
+       Equipment: barbell 
+       Exercise 4: Dumbbell Flyes 
+       Equipment: dumbbell 
+       Exercise 5: Incline dumbbell bench press 
+       Equipment: dumbbell
+  utter_back_exercises:
+  - text: |-
+      This is the routine I recommend for middle_back 
+       Exercise 1: T-Bar Row with Handle 
+       Equipment: other 
+       Exercise 2: Reverse-grip bent-over row 
+       Equipment: barbell 
+       Exercise 3: One-Arm Dumbbell Row 
+       Equipment: dumbbell 
+       Exercise 4: One-Arm Long Bar Row 
+       Equipment: barbell 
+       Exercise 5: T-Bar Row 
+       Equipment: other
+  utter_shoulder_exercises:
+  - text: |-
+      This is the routine I recommend for shoulders 
+       Exercise 1: Smith machine shrug 
+       Equipment: machine 
+       Exercise 2: Seated Head Harness Neck Resistance 
+       Equipment: other
+  utter_biceps_exercises:
+  - text: |-
+      This is the routine I recommend for biceps: 
+       Exercise 1: Incline Hammer Curls 
+       Equipment: dumbbell 
+       Exercise 2: Wide-grip barbell curl 
+       Equipment: barbell 
+       Exercise 3: EZ-bar spider curl 
+       Equipment: barbell 
+       Exercise 4: Hammer Curls 
+       Equipment: dumbbell 
+       Exercise 5: EZ-Bar Curl 
+       Equipment: e-z_curl_bar
+  utter_triceps_exercises:
+  - text: |-
+      This is the routine I recommend for triceps: 
+       Exercise 1: Triceps dip 
+       Equipment: body_only 
+       Exercise 2: Decline EZ-bar skullcrusher 
+       Equipment: e-z_curl_bar 
+       Exercise 3: Dumbbell floor press 
+       Equipment: dumbbell 
+       Exercise 4: Cable V-bar push-down 
+       Equipment: cable 
+       Exercise 5: Weighted bench dip 
+       Equipment: body_only
+  utter_legs_exercises:
+  - text: |-
+      This is the routine I recommend for legs: 
+       Exercise 1: Smith Machine Calf Raise 
+       Equipment: machine 
+       Exercise 2: Barbell glute bridge 
+       Equipment: barbell 
+       Exercise 3: Barbell Hip Thrust 
+       Equipment: barbell  
+       Exercise 4: Barbell Deadlift 
+       Equipment: barbell
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+actions:
+- utter_body_tightening_exercises
+- utter_cheer_up
+- utter_did_that_help
+- utter_doubt
+- utter_goal
+- utter_goodbye
+- utter_greet
+- utter_greet_with_name
+- utter_happy
+- utter_iamabot
+- utter_legs_exercises
+- utter_light_exercise
+- utter_muscle_gain_exercises
+- utter_no_problem
+- utter_ok
+- utter_organize
+- utter_present
+- utter_purpose
+- utter_sad
+- utter_smile
+- utter_something_else
+- utter_something_more
+- utter_suggest_routine
+- utter_weight_loss_exercises
+- utter_what_else
+entities:
+- name
+- body_part
